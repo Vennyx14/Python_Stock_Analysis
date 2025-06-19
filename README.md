@@ -1,26 +1,30 @@
 # Visa (V) Stock Volatility Analysis
 
 ## Mô tả
-Phân tích biến động giá cổ phiếu V (Visa) trong 1 năm.
+- Phân tích biến động giá cổ phiếu V (Visa) trong 2 năm.
+- Sử dụng các phương pháp như: IQR & Z-Score để xử lí outliers
+- Chỉ số kĩ thuật sử dụng: SMA, EMA, RSI, MACD
+- Đồ thị biểu diễn giá cổ phiếu cùng với các chỉ báo để phân tích
+- Diễn giải, phân tích và đưa ra kiến nghị
 
 ## Cấu trúc project
-├── Stock_Analysis.ipynb # Notebook chứa toàn bộ code và giải thích
-├── data/
-│ ├── visa_raw.csv # Dữ liệu gốc
-│ └── visa_clean.csv # Dữ liệu đã làm sạch
-├── report.pdf # Báo cáo xuất từ Notebook
-├── requirements.txt # Danh sách thư viện
-└── README.md # File hướng dẫn này
+    ├── Stock_Analysis.ipynb # Notebook chứa toàn bộ code và giải thích
+    ├── data/
+    │ ├── visa_raw.csv # Dữ liệu gốc
+    │ └── visa_clean.csv # Dữ liệu đã làm sạch
+    ├── report.pdf # Báo cáo xuất từ Notebook
+    ├── requirements.txt # Danh sách thư viện
+    └── README.md # File hướng dẫn này
 
 
 ## Cài đặt environment
 
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1  # PowerShell
-pip install -r requirements.txt
+    python -m venv .venv
+    .\.venv\Scripts\Activate.ps1  # PowerShell
+    pip install -r requirements.txt
 
 ## Mở Stock_Analysis.ipynb và chạy toàn bộ cell
-jupyter lab
+    jupyter lab
 
 ## Tài liệu tham khảo
 
