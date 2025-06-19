@@ -1,0 +1,7 @@
+sys
+pandas
+numpy
+matplotlib
+seaborn
+yfinance
+ta
