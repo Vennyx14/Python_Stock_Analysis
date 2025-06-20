@@ -2,7 +2,7 @@
 
 ## Mô tả
 - Phân tích biến động giá cổ phiếu V (Visa) trong 2 năm.
-- Sử dụng các phương pháp như: IQR / Z-Score để xử lí outliers
+- Sử dụng pandas/numpy cùng các phương pháp như: IQR / Z-Score để xử lí outliers,missing value, cell lỗi
 - Chỉ số kĩ thuật sử dụng: SMA, EMA, RSI, MACD
 - Đồ thị biểu diễn giá cổ phiếu cùng với các chỉ báo để phân tích
 - Diễn giải, phân tích và đưa ra kiến nghị
